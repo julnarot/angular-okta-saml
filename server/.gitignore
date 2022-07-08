@@ -1,0 +1,11 @@
+# compiles
+/dist
+
+# node
+/node_modules
+
+# credentials
+
+*.pem
+
+*.env
