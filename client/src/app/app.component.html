@@ -1,0 +1,8 @@
+<div *ngIf="isAutorized; else login">
+  <pre>{{user|json}}</pre>
+</div>
+
+<ng-template #login>
+  <a href="http://localhost:1337/login"><button>go login</button></a>
+</ng-template>
+<router-outlet></router-outlet>
